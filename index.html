@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+</head>
+
+<body>
+    <!-- header with title -->
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+
+
+    <!-- search sidebar with recently searched cities-->
+    <div class="container">
+        <aside class="left-column">
+            <form class="search-content">
+                <!-- input label -->
+                <p style="font-size: 20px"><b>Search City</b></p>
+                <label alt="Search for a city"></label>
+                <!-- input field -->
+                <input id="input" type="text" placeholder="San Diego" type="text">
+                <!-- submit button -->
+                <input id="submit-btn" type="submit" value="Search">
+                <!-- search history -->
+                <div id="search-history"></div>
+                <div id="clear-history">Clear Searches</div>
+            </form>
+        </aside>
+
+        <!-- weather forecasts -->
+        <div class="right-column">
+            <!-- current weather -->
+            <section class="container is-fluid">
+                <h2 id="city-name">Current Forecast</h2>
+                <div id="current-weather">
+                </div>
+            </section>
+
+            <!-- future weather -->
+            <section class="container is-fluid">
+                <h2>Future Forecast</h2>
+                <div id="five-day-forecast" class="five-day-display">
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer></footer>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>

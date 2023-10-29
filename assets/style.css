@@ -1,0 +1,123 @@
+/* global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header styles */
+header {
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+}
+
+/* layout styles */
+.container {
+    display: flex;
+}
+
+.left-column {
+    flex: 1;
+    padding: 20px;
+}
+
+.right-column {
+    flex: 3;
+    padding: 20px;
+}
+
+/* main content styles */
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* sidebar styles */
+aside {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* form and input styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+/* search button styles */
+#submit-btn {
+    width: auto;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* button hover styles */
+#submit-btn:hover {
+    background-color: #2684c6;
+}
+
+#clear-history {
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#clear-history:hover {
+    background-color: grey;
+}
+
+/* forecast styles */
+section {
+    margin-bottom: 20px;
+}
+
+.forecast-results {
+    padding: 20px;
+    margin: 5px;
+    min-width: 225px;
+}
+
+.five-day-display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    width: auto;
+}
+
+/* input and searched cities button styles */
+#input,
+.searched-cities-btn {
+    width: 85%;
+    margin: 0.5rem;
+}
